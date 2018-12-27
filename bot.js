@@ -14,7 +14,7 @@ if(!message.channel.guild) return;//Rainbow by n3k4a
     if(role) return message.channel.send(`يوجد بلفعل رتبه موجوده ضع البوت فوق الرتبه`)
   if(!role){
     rainbow =  message.guild.createRole({
-   name: "Rainbow ",//اسم الرتبه ستكون
+   name: "Rainbow",//اسم الرتبه ستكون
    color: [
         "#000000",
         "#150517",
