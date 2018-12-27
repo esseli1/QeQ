@@ -29,10 +29,10 @@ client.on('ready', () => {//لا تغير شي هنا
       client.guilds.forEach(g => {//Toxic Codes
                   var role = g.roles.find('name', 'Rainbow ');//اسم رتبه رنبو 
                   if (role) {//Toxic Codes
-                      role.edit({color : "RANDOM"});//
+                      role.edit({color : "RANDOM"});//Toxic Codes
                   };
       });//Toxic Codes
   }, 5000);//سرعه تغير الالوان
-})//
+})//Toxic Codes
 
 client.login(process.env.BOT_TOKEN);
