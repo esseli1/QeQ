@@ -34,3 +34,5 @@ client.on('ready', () => {//لا تغير شي هنا
       });//Toxic Codes
   }, 5000);//سرعه تغير الالوان
 })//
+
+client.login(process.env.BOT_TOKEN);
